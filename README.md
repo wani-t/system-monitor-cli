@@ -29,12 +29,12 @@ Tracks CPU and memory usage, supports live plotting, logs data to CSV, and handl
 
 ## Project Structure
 
-system_monitor/
-├── main.py # CLI interface and command loop
-├── monitor.py # Background monitor thread
-├── live_plot.py # Live graph plotting
-├── utils.py # Summary + save functions
-├── system_monitor_logs.csv #Log file (optional)
+# system_monitor/
+# ├── main.py # CLI interface and command loop
+# ├── monitor.py # Background monitor thread
+# ├── live_plot.py # Live graph plotting
+# ├── utils.py # Summary + save functions
+# ├── system_monitor_logs.csv #Log file (optional)
 
 ---
 
@@ -50,14 +50,14 @@ python main.py
 
 ### 3. Use the commands
 
-start     → start monitoring
-stop      → stop monitoring
-summary   → print last 5 readings
-save      → save log to monitor_log.csv
-plot      → live graph of recent usage
-quit      → exit the program
+# start     → start monitoring
+# stop      → stop monitoring
+# summary   → print last 5 readings
+# save      → save log to monitor_log.csv
+# plot      → live graph of recent usage
+# quit      → exit the program
 
-Press Ctrl+C anytime to cleanly stop monitoring.
+# Press Ctrl+C anytime to cleanly stop monitoring.
 
 ---
 ![Live Plot](Figure_1.png)
