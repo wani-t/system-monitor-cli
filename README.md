@@ -5,7 +5,7 @@ Tracks CPU and memory usage, supports live plotting, logs data to CSV, and handl
 
 ---
 
-## Features
+### Features
 
 - Background thread for CPU + memory sampling
 - In-memory ring buffer using `collections.deque`
@@ -17,7 +17,7 @@ Tracks CPU and memory usage, supports live plotting, logs data to CSV, and handl
 
 ---
 
-## Tech Stack
+### Tech Stack
 
 - Python 3.x
 - `psutil` (for resource monitoring)
@@ -27,7 +27,7 @@ Tracks CPU and memory usage, supports live plotting, logs data to CSV, and handl
 
 ---
 
-## Project Structure
+### Project Structure
 
 - system_monitor/
 - ├── main.py # CLI interface and command loop
@@ -38,7 +38,7 @@ Tracks CPU and memory usage, supports live plotting, logs data to CSV, and handl
 
 ---
 
-## How to Run
+### How to Run
 
 ### 1. Install dependencies
 
@@ -57,7 +57,7 @@ python main.py
 - plot      → live graph of recent usage
 - quit      → exit the program
 
-# Press Ctrl+C anytime to cleanly stop monitoring.
+Press Ctrl+C anytime to cleanly stop monitoring.
 
 ---
 ![Live Plot](Figure_1.png)
