@@ -60,9 +60,6 @@ python main.py
 Press Ctrl+C anytime to cleanly stop monitoring.
 
 ---
-![Live Plot](Figure_1.png)
-![Saved to CSV](image.png)
----
 
 ### Why This Project?
 
